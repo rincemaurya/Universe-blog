@@ -1,35 +1,40 @@
-html {
-  height: 100%;
-  width: 100%;
+*{
+    padding: 0;
+    margin: 0;
+}
+ /* Thumbnail */
+ .main{
+     
+    margin: 10px;
+ }
+
+/* Footer */
+
+footer{
+    padding: 10px;
+    display: flex;
+    background-color: #15163d;
+    max-width: 1170px;
+    float: bottom;
+bottom: 0px;
+    color: white;
+}
+.help{
+    margin-left:50px ;
+}
+/*
+.fa-youtube {
+ 
+  color: white;
 }
 
- /* Thumbnail */
-.cont{
-  width: 400px;
-  border-radius: 15px;
- padding-bottom:10px;
-  background-color: aqua;
-  margin: 15px;
-  display: inline-block;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.fa-instagram {
+
+  color: white;
 }
-.thumbnail{
-  height: 400px;
-  border-radius: 15px;
-}
-.read{
-  border-color: white;
-  color:blue;
-  background-color: skyblue;
-  border-radius:15px;
-  padding:10px;
-  font-size:25px;
-  margin-left: 30%;
-}
-.tit{
-  margin-left: 5px;
-}
-.thumbdes{
-   margin:10px;
+.fa-facebook {
   
+  color: white;
 }
+
+*/
